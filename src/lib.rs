@@ -244,16 +244,16 @@ pub struct ResultStockPiece {
 #[derive(Copy, Clone, Debug, Default)]
 pub struct Rect {
     /// X location of this rectangle.
-    x: usize,
+    pub x: usize,
 
     /// Y location of this rectangle.
-    y: usize,
+    pub y: usize,
 
     /// Width of this rectangle.
-    width: usize,
+    pub width: usize,
 
     /// Length of this rectangle.
-    length: usize,
+    pub length: usize,
 }
 
 impl Rect {
